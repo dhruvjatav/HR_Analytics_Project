@@ -1,75 +1,129 @@
-# 📊 HR Analytics Project  
-A complete HR Analytics system built using **Python, SQL, and Power BI**, focused on analyzing employee trends, attrition, demographics, and workforce distribution.
+# 📊 HR Analytics Dashboard | Exploratory Data Analysis + Power BI
+
+A complete **HR Analytics project** that includes Exploratory Data Analysis (EDA),  
+Data Cleaning, SQL checks, Python visualizations, and a professional **Power BI Dashboard**  
+for understanding employee attrition, salary trends, job roles, working conditions, and overall workforce insights.
+
+This project is ideal for:
+- HR Teams  
+- Data Analysts  
+- BI Developers  
+- Students practicing Data Analytics  
 
 ---
 
-## 🔍 Overview  
-This project helps HR teams understand:
-
-- Employee distribution by age, gender, education  
-- Salary trends and department-wise structure  
-- Attrition rate and key reasons  
-- HR KPIs with automated dashboards  
-- Data-driven workforce decisions  
+## 👨‍💻 **Project Owner**
+**Dhruv Kumar Jatav**  
+ECE Final Year | Aspiring Data Analyst (Power BI • SQL • Python)
 
 ---
 
-## 🧰 Tools Used  
+# 📁 **Project Structure**
+HR_Analytics_Project/
+│
+├── data/ # Original HR dataset (CSV)
+├── python/ # Jupyter notebook for EDA
+│ └── cleaning_and_eda.ipynb
+├── sql/ # SQL data cleaning checks
+│ └── hr_cleaning.sql
+├── powerbi/ # Power BI theme + dashboard
+│ └── hr_theme.json
+├── image/ # Dashboard screenshot
+│ └── HR_Analytics_Dashboard.png
+└── README.md
+
+
+---
+
+# 📥 **Dataset Used**
+**HR_Analytics_Data.csv**
+
+Features include:
+- Age  
+- Gender  
+- Department  
+- Job Role  
+- Monthly Income  
+- Attrition (Yes/No)  
+- Work Experience  
+- OverTime  
+- Performance Rating  
+- Distance From Home, etc.
+
+---
+
+# 🧹 **Data Cleaning Steps (Python + SQL)**
+
+### ✔ Removed duplicates  
+### ✔ Checked for null values  
+### ✔ Cleaned inconsistent values  
+### ✔ Converted data types  
+### ✔ Prepared dataset for EDA + Power BI
+
+SQL version also included at:
+
+
+---
+
+# 📊 **Exploratory Data Analysis (Python)**
+
+Performed using:
+
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+### Key Visualizations Included:
+- Attrition by Department  
+- Age Distribution  
+- Job Role vs Salary  
+- Monthly Income Distribution  
+- Correlation Heatmap  
+- Work-Life Balance Patterns
+
+---
+
+# 📈 **Power BI Dashboard**
+
+A clean, modern, and professional HR Analytics Dashboard created using:
+
+- Custom JSON Theme  
+- KPIs  
+- Slicers  
+- Attrition Summary  
+- Job Role Insights  
+- Salary Trends  
+- Department Comparison  
+- Work-Life Balance View  
+
+### 🖼 Dashboard Preview  
+![Dashboard](image/HR_Analytics_Dashboard.png)
+
+---
+
+# 🛠 **Tools & Technologies Used**
+
 | Tool | Purpose |
 |------|---------|
-| Python | Data cleaning & EDA |
-| SQL | Data preprocessing |
-| Power BI | Dashboard & insights |
-| GitHub | Project management |
+| **Python** | EDA & Visualizations |
+| **SQL** | Cleaning & integrity checks |
+| **Power BI** | Dashboard development |
+| **GitHub** | Version control |
 
 ---
 
-## 📂 Project Structure  
-HR_Analytics_Project/
-│── data/ # Dataset
-│── python/ # EDA notebook
-│── sql/ # SQL cleaning script
-│── powerbi/ # Power BI theme + dashboard preview
-│── images/ # Additional assets
-└── README.md # Documentation
+# 🚀 **Key Insights from Dashboard**
+
+- Sales and R&D departments show highest attrition.  
+- Employees with **low salary** + **high overtime** leave more.  
+- Younger employees (25–35) have the highest attrition rate.  
+- Distance from home significantly affects employee satisfaction.  
 
 ---
 
-## 🐍 Python (EDA Highlights)
-- Data cleaning  
-- Feature formatting  
-- Visual patterns  
-- Insights generation  
+# 📦 How to Run This Project
 
-Notebook:  
-`python/cleaning_and_eda.ipynb`
+### **1. Clone the Repository**
 
----
 
-## 🧮 SQL  
-Includes basic preprocessing + formatting queries.
-
-File:  
-`sql/hr_cleaning.sql`
-
----
-
-## 📊 Power BI Dashboard  
-- KPI Cards  
-- Gender Distribution  
-- Education Split  
-- Monthly Income Chart  
-- Department-wise Count
-
-📁 Power BI assets in → `powerbi/`
-
----
-
-## 🖼 Dashboard Preview  
-(Add your Power BI screenshot here)
-
----
-
-## ⭐ Author  
-**Dhruv Kumar Jatav**  
-Aspiring Data Analyst | SQL | Python | Power BI
